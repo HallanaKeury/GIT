@@ -1,0 +1,38 @@
+pwd-> exibe onde você estána maquina
+cd  /c -> mudaria o lugar para o disco c
+ls -> lista o que tem no repositório
+clear -> limpa a tela
+mkdir  nome da pasta -> cria uma pasta comum
+git init -> cria um repositório git
+ls -a -> exibe arquivos ocultos
+git status -> mostra a situação da pasta, o que tem dentro também
+touch + nome do arquivo (ex: a.txt)->  cria arquivos
+touch + nome da pasta/nome do arquivo-> cria um arquio dentro da pasta
+-b git add + nome do arquivo -> faz commit do arquivo para a branch ou trunk
+git add* -> faz commit de todos os arquivos( os nomes ficam verdes depois do commit)
+#git commit --   delete-author
+git commit  -m "comentario"
+git log -> mostra o histórico de confirmação
+git log  --oneline ->  mostra os commits alinhados 
+git log --graph -> mostra o grafo dos commits( desenho da trunk)
+git log --graph  --all-> mostra todos os commits em grafo
+git commit -am " Fiz commit e adicionei de uma vez usando o Head" -> faz o commit pro contêiner diretamente 
+git branch -> identifica o ramo em que está o projeto 
+git checkout + número do rach(numero do commit ) -> volta o arquivo para a versão escolhida 
+git checkout master -> retorna a última versão do arquivo
+git diff -> mostra as últimas mudanças feitas no arquivo
+git reset --hard +número de rach (número do commit) apaga o commit selecionado(está dando errado)
+git checkout master -> volta para a trunk
+git log --graph --all -> mostra o grafo de todos os commits
+git merge + nome de onde quer inserir a branch -> faz o merge
+git reflog -> desfaz as últimas alterações do commit 
+git checkout -b +nome -> cria uma branch
+git clone + url copiada do github -> clona o código do github(a ultima versão)
+git  push -u origin master -> dá push e commita pro github
+git pull -> atualiza a ultima versão
+git config --global --unset user.email - Vai remover o email que está configurado, se quiser remover outra configuração é só substituir a palavra.
+git config --global user.email - Vai adicionar o email que está configurado, se quiser adicionar outra configuração é só substituir a palavra.
+
+
+== PONTO ANTES DA PALAVRA GIT==
+.git -> significa que o arquivo é oculto
