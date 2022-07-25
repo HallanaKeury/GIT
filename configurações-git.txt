@@ -1,0 +1,48 @@
+===COMANDOS===
+Comandos iniciais---
+git config --global user.name " nome da pessoa" -> configura teu nome
+git config --global user.email" email da pessoa" -> configura teu email
+git config --global core.editor "coloca o nome do executavel aqui"
+
+
+
+CONFIGURAR ATALHO PELO TERMINAL
+--abrir o visual studio code só com o comando code---
+botão direito no atalho do aplicativo/ propriedades/ copia o destino sem aspas/
+ vai no painel de controle/ sistema/ configurações avançadas do sistema/variáveis de 
+ambiente/nova variavel/cola o endereço e dá um nome/ salva e salva.
+
+GIT-> Criado por Linux Torvalds, enquanto desenvolvia o kernel(linux). Já existiam outras ferramentas de versionamento de código, mas hoje em dia Git e Github são os mais usados.
+
+COMANDOS WINDOWS X LINUX
+
+
+WINDOWS: 
+listar - dir
+entrar na pasta :  cd /
+limpar tela - cls
+criar pasta - mkdir
+criar arquivo com conteúdo - echo hello > hello.txt
+deletar  arquivos - del
+deletar repositórios - rmdir
+
+ LINUX
+entrar na pasta :  cd /
+listar - ls
+limpar tela - clear ou ctrl + L
+criar pasta - mkdir
+criar arquivo com conteúdo - echo hello > hello.txt
+deletar arquivos - rm
+deletar repositórios - rm -rf
+
+Comandos GIT
+  
+openssl sha1 'nomedoarquivo' - cria um código de 40 caracteres que contém metadados para essa versão
+
+
+Objetos internos do GIT
+Blobs - Vai ter o tipo do objeto guardado, o tamanho, contém \0 + o conteúdo do arquivo
+
+Trees - armazenam blobs, aponta para blobs, que contém o sha1(aquele código de 40 caracteres), guarda o nome do arquivo
+
+Commit - aponta para uma árvore, para um parente, para um autor, para a mensagem
