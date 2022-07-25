@@ -1,24 +1,27 @@
-# dio-desafio-github
 
-🔺 Instalação Git
-🔸 1. Abra o terminal (Ctrl + Alt + t) e vamos verificar se temos o git instalado:
 
-git --version
-🔸 2. Execute o comando:
+ ##  Instalação Git
+ -  📍 1. Abra o terminal (Ctrl + Alt + t) e verifique se o git já está instalado:
+ 
 
-sudo apt-get install git-all
-🔸3. Confirme novamente se o git realmente está instalado:
+>git --version
+ -  📍 2. Execute o comando:
 
-git --version
-🔸 4. Vamos começar as configurações iniciais:
+>sudo apt-get install git-all
+ -  📍 3. Confirme se o git realmente foi instalado:
 
-​ 4.1 Cofigurar o nome de usuário
+>git --version
+ -  📍 4. Configurações iniciais:
 
-git config --global user.name "Seu nome"
-​ 4.2 Configurar o endereço de e-mail:​ É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!
+ - ​ 4.1 Cofigurar o nome de usuário
 
-git config --global user.email seuemail@email.br
-​ 4.3 Vamos conferir a lista de configurações:
+>git config --global user.name "Seu nome"
+ - ​ 4.2 Configurar o endereço de e-mail:​ É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!
 
-git config --list
-🔸 5. Pronto, git instalado e configurado com sucesso!
+>git config --global user.email seuemail@email.br
+ - ​ 4.3 Conferir a lista de configurações:
+
+>git config --list
+ - 🔸 5. Git instalado e configurado com sucesso!
+
+
